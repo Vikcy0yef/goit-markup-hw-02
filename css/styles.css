@@ -36,7 +36,9 @@ a {
 .header-address-link:focus {
   color: #404bbf;
 }
-
+.header-address {
+  font-style: normal;
+}
 .header-address-link {
   font-size: 16px;
   line-height: 1.5;
@@ -49,7 +51,7 @@ a {
 .main-page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -61,10 +63,13 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.main-page-button:hover {
+.main-page-button:hover,
+.main-page-button:focus {
   background-color: #404bbf;
 }
+
 .main-actions-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -78,13 +83,20 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-list {
+  background-color: #fff;
 }
 .team-name {
   font-weight: 500;
@@ -104,10 +116,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-item-title {
   font-weight: 500;
