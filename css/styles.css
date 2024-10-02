@@ -89,14 +89,14 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .team-name {
   font-weight: 500;
@@ -116,7 +116,7 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
